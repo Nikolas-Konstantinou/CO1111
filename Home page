@@ -1,0 +1,110 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Treasure Hunt</title>
+    <link rel="stylesheet" href="Style1.css" type="text/css">
+</head>
+<body>
+
+<div class="header">
+    <h4>
+        <a href="Help.html">Help</a>
+        <a href="About.html">About</a>
+    </h4>
+    <h1></h1>
+</div>
+<h2>Treasure Hunt <img src="Treasure-Hunt.png" width="120" height="120"></h2>
+<h3>Welcome to the Treasure Hunt game website</h3>
+<h1>The Treasure Hunt is an online quiz where the answers depend on you finding information at
+    specific locations.</h1>
+<h6><p>Meet our members:</p></h6>
+
+<h3>Ready to start? Sign-up and enjoy playing</h3>
+<h5>
+    <p>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="sign up">
+    </p>
+    <p>
+        Already have an account?
+        <input type="submit" value="login">
+    </p>
+</h5>
+
+<h6>
+    Follow us on social media to not miss the latest news
+    <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/TeamF_CO1111?ref_src=twsrc%5Etfw"><img src="X.png" width="50" height="50"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <img src="YouTube.png" width="50" height="50">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FYF44GHWWE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-FYF44GHWWE');
+    </script>
+</h6>
+
+</body>
+</html>
+
+
+CSS:
+body {
+    background-color: rgb(44, 44, 44);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(184, 134, 11);
+    color: white;
+    font-size: 5px;
+    height: 50px;
+}
+a {
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
+/* selected link */
+a:active {
+    color: Black;
+}
+
+h1 {
+    text-align: center;
+    padding: 80px;
+    font-size: 25px;
+    color: #f5f5dc;
+}
+h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #f5f5dc;
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #f5f5dc;
+}
+h4 {
+    text-align: right;
+}
+h5 {
+    text-align: center;
+    color: #f5f5dc;
+}
+h6 {
+    text-align: left;
+    color: #f5f5dc;
+    font-size: 17px;
+}
