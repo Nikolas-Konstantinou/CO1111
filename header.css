@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Monaco',monospace;
 }
-
+body {
+    background-color: grey;
+}
 header {
     display: flex;
     align-items: center;
@@ -39,8 +41,21 @@ header {
 .Image img {
     max-width: 145px;
     max-height: 145px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border: 2px solid black;
-    margin-top: 9px;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #333333;
+    height: 150px;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-top: 4px solid black;
+}
+
+footer p {
+    font-size: 24px;
+    color: white;
 }
