@@ -1,0 +1,26 @@
+HTML:
+<input type="text" name="username" placeholder="Username" required>
+    <a href="Homepage.html" class="button-class">Create username</a>
+
+CSS:
+/* Code from Geeks for Geeks -> How to Link a Button to Another Page in HTML? */
+/* https://www.geeksforgeeks.org/how-to-link-a-button-to-another-page-in-html/ */
+.button-class {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 15px;
+}
