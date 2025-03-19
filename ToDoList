@@ -1,6 +1,8 @@
-Index.html:
-  1. Get a basic home page set up.
-  2. Write down the team's information.
-  3. Write down an explanation of what the app is.
-  4. Add buttons linking to the team's twitter and other social media sites for advertising.
-  5. Add Buttons that lead to the other parts of the project.
+index.html
+  1.Add the team's information to the footer. (Pambos)
+
+
+app.html
+  1.Implement form to enter username and save it using cookies. (Pambos)
+  2.Implement button to activate qr code scanner.(Sepanta)
+  3.Implement geolocation tracking.(Nick)
