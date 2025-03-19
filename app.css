@@ -1,0 +1,19 @@
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 15px;
+}
