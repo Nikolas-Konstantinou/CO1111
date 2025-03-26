@@ -1,13 +1,22 @@
-* {
+/* Stylisation of both header and footer used in every page*/
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Monaco',monospace;
 }
-body {
+
+body
+{
     background-color: grey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
-header {
+
+header
+{
     display: flex;
     align-items: center;
     background-color: #333333;
@@ -18,44 +27,68 @@ header {
     border-bottom: 4px solid black;
 }
 
-#one {
+#one
+{
     font-size: 36px;
     color: white;
 }
-#two {
+
+#two
+{
     font-size: 16px;
     margin-left: 6px;
     color: grey;
 }
-.Navigation a {
+
+.Navigation a
+{
     font-size: 22px;
     color: white;
     text-decoration: none;
     margin-right: 30px;
 }
-.Navigation a:hover {
+
+.Navigation a:hover
+{
     color: grey;
     text-shadow: black 1px 1px;
     transition-duration: 0.3s;
 }
-.Image img {
+
+.Image img
+{
     max-width: 145px;
     max-height: 145px;
     margin-top: 10px;
 }
 
-footer {
+footer
+{
     display: flex;
     background-color: #333333;
     height: 150px;
-    margin: 0;
     padding-top: 15px;
     padding-left: 35px;
     padding-right: 35px;
     border-top: 4px solid black;
+    margin-top: auto;
 }
 
-footer p {
+footer p
+{
     font-size: 24px;
     color: white;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover
+{
+    color: grey;
+    text-shadow: black 1px 1px;
+    transition-duration: 0.3s;
 }

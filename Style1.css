@@ -1,50 +1,47 @@
-body {
-    background-color: rgb(44, 44, 44);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
+/* Stylisation of the content of every page */
+a
+{
     padding: 10px;
     font-size: 20px;
     color: black;
 }
-/* mouse over link */
-a:hover {
+
+a:hover
+{
     color: white;
 }
-/* selected link */
-a:active {
-    color: Black;
-}
 
-h1 {
+h1
+{
     text-align: center;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-left:25px;
+    padding-right: 25px;
     font-size: 40px;
     color: black;
 }
-h2 {
+
+h2
+{
     font-size: 27px;
     text-align: center;
     color: black;
-    padding-left:200px;
-    padding-right: 200px;
+    padding-left:250px;
+    padding-right: 250px;
 }
-h3 {
+
+h3
+{
     text-align: center;
     font-size: 27px;
     color: black;
     padding-top:50px;
     padding-bottom:30px;
 }
-h4 {
-    text-align: right;
-}
-h5 {
-    text-align: center;
-    color: #f5f5dc;
-}
-h4 {
+
+h4
+{
     text-align: center;
     color: black;
     font-size: 17px;
@@ -54,28 +51,122 @@ h4 {
     margin:0 auto;
     max-width: 750px;
 }
-h4 p{
+h4 p
+{
     padding-bottom: 40px;
 }
-h3 button
+
+button
 {
-    padding: 20px 20px;
-    background-color: white; /* Button background color */
+    padding: 10px 10px;
+    background-color: white;
     border: black solid 2px;
-    color: black; /* Text color */
-    border-radius: 5px; /* Rounded Corners */
+    color: black;
+    border-radius: 5px;
     font-size: 20px;
-    cursor: pointer; /*Turns cursor into pointer when hovered over*/
+    cursor: pointer;
     margin-top: 40px;
     margin-bottom: 40px;
 }
-h3 button:hover {
+
+button:hover
+{
     background-color: #333333;
     color: white;
     transition-duration: 0.3s;
 }
 
+input
+{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 15px;
+}
 
+.content
+{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: black;
+}
 
+.hidden
+{
+    display: none;
+}
 
+.hunt
+{
+    text-align: center;
+}
 
+#answerOptions
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#mainTreasureHunt
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#mainTreasureHunt.hidden #skipButton
+{
+    display: none ;
+}
+
+#mainTreasureHunt.hidden p
+{
+    display: none ;
+}
+
+#questionText a
+{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#questionText a:hover
+{
+    color: black;
+    transition-duration: 0.3s;
+
+}
+
+#leaderboardContent {
+    margin-top: 40px;
+}
+
+#leaderboardTable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#leaderboardTable th, #leaderboardTable td {
+    padding: 12px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#leaderboardTable th {
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+}
+
+#leaderboardTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
