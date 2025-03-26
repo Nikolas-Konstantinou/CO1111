@@ -6,11 +6,9 @@ function setCookie(cookieName, cookieValue, expireDays)
     document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
 }
 
-
 document.getElementById('usernameForm').addEventListener('submit', function(event)
 {
     event.preventDefault();
     let username = document.getElementById('username').value;
     setCookie('username', username, 365);
 });
-

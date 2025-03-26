@@ -2,40 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Testing Page</title>
+    <title>Notes</title>
     <link rel="stylesheet" href="Style1.css">
     <link rel="stylesheet" href="header.css">
+    <script src="testing.js"></script> <!-- Include the external JavaScript file -->
 </head>
 <body>
 
 <header> <!-- Header Template -->
-
     <div class="Htext">
         <p id="one">Treasure Hunt</p>
         <p id="two">By Team F</p>
     </div>
-
     <div class="Image">
         <img src="logo.png"> <!-- AI generated image -->
     </div>
-
     <div class="Navigation">
         <a href="index.html">Home</a>
         <a href="test.html">Testing Page</a>
         <a href="notes.html">Notes</a>
     </div>
-
 </header>
 
-<footer> <!-- Footer Template -->
+<h1>Geolocation Example</h1>
+<button onclick="getLocation()">Get Geolocation</button><br>
 
+<h1>Testing Scenarios</h1><br>
+<h2>Scenario: Entering an already inputed username.</h2><br>
+<h2>Result: Error, asking user to go back and re-enter username.</h2><br>
+
+<h2>Scenario: Choosing an inactive treasure hunt.</h2><br>
+<h2>Result: Error, informing user that the treasure hunt hasn't started yet.</h2><br>
+
+<h2>Scenario: Playing through the treasure hunt properly.</h2><br>
+<h2>Result: No errors, successfully reaches result and leaderboard page.</h2><br>
+
+<h1>Usability Report</h1><br>
+<h2>The app overall works nearly perfect except for some hiccups involving the camera.</h2>
+<h2>If the player activates the camera, closes it and then reactivates it, it doesn't start recording.</h2>
+
+<footer> <!-- Footer Template -->
     <div class="Ftext">
         <p>The Team:<br>
             <a href="https://github.com/Nikolas-Konstantinou">Nikolas Konstantinou</a><br>
-            <a href="https://github.com/Sepanta0-0">Sepanta Darafsh</a> <br>
+            <a href="https://github.com/Sepanta0-0">Sepanta Darafsh</a><br>
             <a href="https://github.com/CGeorgiou8">Charalambos Georgiou</a>
+        </p>
     </div>
-
 </footer>
 
 </body>
