@@ -198,6 +198,7 @@ async function showResults()
     const params = new URLSearchParams({ session: currentSession });
     document.getElementById("mainTreasureHunt").style.display = "none";
     document.getElementById("resultsScreen").classList.remove("hidden");
+
     const scoreResponse = await fetch(`${API}/score?${params}`);
     const scoreData = await scoreResponse.json();
     if (scoreData.status === "OK")
