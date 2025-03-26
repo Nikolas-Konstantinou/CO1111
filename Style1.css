@@ -145,28 +145,33 @@ input
 
 }
 
-#leaderboardContent {
+#leaderboardContent
+{
     margin-top: 40px;
 }
 
-#leaderboardTable {
+#leaderboardTable
+{
     width: 80%;
     margin: 20px auto;
     border-collapse: collapse;
 }
 
-#leaderboardTable th, #leaderboardTable td {
+#leaderboardTable th, #leaderboardTable td
+{
     padding: 12px;
     border: 1px solid black;
     text-align: center;
 }
 
-#leaderboardTable th {
+#leaderboardTable th
+{
     background-color: #333333;
     color: white;
     font-weight: bold;
 }
 
-#leaderboardTable tr:nth-child(even) {
+#leaderboardTable tr:nth-child(even)
+{
     background-color: #f9f9f9;
 }
